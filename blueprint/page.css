@@ -130,3 +130,13 @@
         width: calc(100% - 2*(var(--margin-tiny)));
     }
 }
+
+@media (max-width: 800px) {
+    #ptitle {
+        font-size: 7.5vw;
+    }
+
+    .info-container span {
+        font-size: 18px;
+    }
+}
