@@ -1,0 +1,132 @@
+:root {
+    --margin-tiny: 4%;
+    --page-width: 1300px;
+}
+
+.page {
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+    width: var(--page-width);
+    background-color: white;
+}
+
+#ptitle {
+    display: inline-block;
+    font-family: TestSignifier-ExtraLight;
+    font-size: 60px;
+    vertical-align: top;
+}
+
+#ptype {
+    font-size: 15px;
+}
+
+.intro {
+    display: inline-block;
+    margin-top: 200px;
+    vertical-align: top;
+    padding-left: 200px;
+    padding-bottom: 100px;
+}
+
+.breakline {
+    width: 100%;
+    border-top: 2px solid black;
+}
+
+.info-container {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.info-container span {
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+    position: relative;
+}
+
+.info-container img {
+    width: 15px;
+    height: 15px;
+    margin-top: -4px;
+    vertical-align: middle;
+}
+
+.info-container a span::after {
+    content: "";
+    display: block;
+    bottom: -1px;
+    width: 100%;
+    height: 2px;
+    transform: scaleX(0);
+    background-color: black;
+    transition: transform 0.1s linear;
+}
+
+.info-container a span:hover::after {
+    transform: scaleX(0.8);
+}
+
+#readpaper {
+    position: absolute;
+    left: 0px;
+    margin-left: 200px;
+}
+
+.pub-info {
+    margin-top: 80px;
+    margin-left: 200px;
+}
+
+.pub-info h1 {
+    font-size: 30px;
+    font-family: TestSohne;
+    margin-bottom: 15px;
+}
+
+.pub-info p {
+    font-family: TestSignifier-ExtraLight;
+    font-size: 20px;
+    width: 100%;
+    margin-bottom: 50vh;
+}
+
+@media (max-width: 1300px) { /* This has to be set to page's width.*/
+    .page {
+        width: 100%;
+    }
+
+    .intro {
+        padding-left: var(--margin-tiny);
+    }
+
+    .breakline {
+        margin-left: var(--margin-tiny);
+        width: calc(100% - 2*(var(--margin-tiny)));
+    }
+
+    #date {
+        margin-left: var(--margin-tiny);
+    }
+    
+    #readpaper {
+        margin-left: calc(var(--margin-tiny) + 200px);
+    }
+    
+    .pub-info {
+        margin-left: calc(var(--margin-tiny));
+    }
+
+    .pub-info p {
+        width: calc(100% - var(--margin-tiny));
+    }
+}
+
+@media (max-width: 1000px) {
+    .pub-info p {
+        width: calc(100% - 2*(var(--margin-tiny)));
+    }
+}

@@ -1,0 +1,29 @@
+@import url("../../style/font-faces.css");
+@import url("../../style/scrollbar.css");
+@import url("page.css");
+
+::-moz-selection { /* Code for Firefox. */
+    color: white;
+    background: black;
+}
+  
+::selection {
+    color: white;
+    background: black;
+}
+
+*, ::before, ::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: TestSohne-Light;
+    overflow-x: hidden;
+
+    /* For the footer. */
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
