@@ -1,5 +1,7 @@
 @import url("../../style/font-faces.css");
 @import url("../../style/scrollbar.css");
+@import url("../../style/navbar.css");
+@import url("../../style/footer.css");
 @import url("page.css");
 
 ::-moz-selection { /* Code for Firefox. */
