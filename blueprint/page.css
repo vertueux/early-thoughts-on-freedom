@@ -9,6 +9,7 @@
     position: relative;
     width: var(--page-width);
     background-color: white;
+    height: 100vh;
 }
 
 #ptitle {
@@ -91,7 +92,6 @@
     font-family: TestSignifier-ExtraLight;
     font-size: 20px;
     width: 100%;
-    margin-bottom: 50vh;
 }
 
 @media (max-width: 1300px) { /* This has to be set to page's width.*/
