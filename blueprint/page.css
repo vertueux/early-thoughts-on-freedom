@@ -10,6 +10,7 @@
     width: var(--page-width);
     background-color: white;
     height: 100vh;
+    margin-bottom: 300px;
 }
 
 #ptitle {
