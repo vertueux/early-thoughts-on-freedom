@@ -31,9 +31,20 @@ img::selection {
 body {
     font-family: TestSohne-Light;
     overflow-x: hidden;
+    background: white;
 
     /* For the footer. */
     height: 100vh;
     display: flex;
     flex-direction: column;
+}
+
+.stop-scrolling {
+    height: 100%;
+    overflow: hidden;
+}
+
+/* For the footer. */
+.page {
+    flex: 1 0 auto;
 }
