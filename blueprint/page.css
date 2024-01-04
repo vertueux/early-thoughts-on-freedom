@@ -1,6 +1,7 @@
 :root {
     --margin-tiny: 4%;
     --page-width: 1300px;
+    --padding-left-from-page: 230px;
 }
 
 .page {
@@ -28,7 +29,7 @@
     display: inline-block;
     margin-top: 200px;
     vertical-align: top;
-    padding-left: 200px;
+    padding-left: var(--padding-left-from-page);
     padding-bottom: 100px;
 }
 
@@ -75,12 +76,12 @@
 #readpaper {
     position: absolute;
     left: 0px;
-    margin-left: 200px;
+    margin-left: var(--padding-left-from-page);
 }
 
 .pub-info {
     margin-top: 80px;
-    margin-left: 200px;
+    margin-left: var(--padding-left-from-page);
 }
 
 .pub-info h1 {
@@ -114,7 +115,7 @@
     }
     
     #readpaper {
-        margin-left: calc(var(--margin-tiny) + 200px);
+        margin-left: calc(var(--margin-tiny) + var(--padding-left-from-page));
     }
     
     .pub-info {
