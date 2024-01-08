@@ -2,6 +2,7 @@
     --margin-tiny: 4%;
     --page-width: 1300px;
     --padding-left-from-page: 230px;
+    --page-min-height: 1000px;
 }
 
 .page {
@@ -94,6 +95,13 @@
     font-size: 20px;
     width: 100%;
 }
+
+@media (max-height: 1000px) {
+    .page {
+        height: var(--page-min-height);
+    }
+}
+
 
 @media (max-width: 1300px) { /* This has to be set to page's width.*/
     .page {
