@@ -93,6 +93,28 @@
     font-family: TestSignifier-ExtraLight;
     font-size: 20px;
     width: 100%;
+    padding-bottom: 160px;
+}
+
+.credits-container {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.credits-container span {
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+    position: relative;
+}
+
+#author {
+    font-family: TestSohne;
+}
+
+#authorname {
+    margin-left: 160px;
 }
 
 @media (max-height: 1000px) {
