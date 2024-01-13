@@ -92,7 +92,7 @@
 .pub-info p {
     font-family: TestSignifier-ExtraLight;
     font-size: 20px;
-    width: 100%;
+    width: calc(var(--page-width) - 2*var(--padding-left-from-page));
     padding-bottom: 160px;
 }
 
@@ -147,6 +147,14 @@
     }
     
     #readpaper {
+        margin-left: calc(var(--margin-tiny) + var(--padding-left-from-page));
+    }
+
+    #author {
+        margin-left: var(--margin-tiny);
+    }
+    
+    #authorname {
         margin-left: calc(var(--margin-tiny) + var(--padding-left-from-page));
     }
     
