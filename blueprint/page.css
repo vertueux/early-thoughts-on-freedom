@@ -147,7 +147,7 @@
     }
     
     #readpaper {
-        margin-left: calc(var(--margin-tiny) + var(--padding-left-from-page));
+        margin-left: 40%;
     }
 
     #author {
@@ -155,7 +155,7 @@
     }
     
     #authorname {
-        margin-left: calc(var(--margin-tiny) + var(--padding-left-from-page));
+        margin-left: 40%;
     }
     
     .pub-info {
@@ -183,6 +183,10 @@
     }
 
     .info-container span {
+        font-size: 17px;
+    }
+
+    .credits-container span {
         font-size: 17px;
     }
 
