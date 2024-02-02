@@ -128,7 +128,7 @@
 }
 
 
-@media (max-width: 1300px) { /* This has to be set to page's width.*/
+@media (max-width: 1450px) { /* This has to be set to page's width with a tiny gap (+150px in this case).*/
     .page {
         width: 100%;
     }
@@ -171,6 +171,10 @@
     #ptitle {
         font-size: 44px;
     }
+
+    .pub-info h1 {
+        font-size: 28px;
+    }
 }
 
 @media (max-width: 1000px) {
@@ -181,7 +185,7 @@
 
 @media (max-width: 800px) {
     #ptitle {
-        font-size: 32px;
+        font-size: 34px;
     }
 
     .info-container span {
@@ -194,5 +198,31 @@
 
     .pub-info p {
         font-size: 17px;
+    }
+
+    .pub-info h1 {
+        font-size: 26px;
+    }
+}
+
+@media (max-width: 600px) {
+    #ptitle {
+        font-size: 33px;
+    }
+
+    .info-container span {
+        font-size: 16px;
+    }
+
+    .credits-container span {
+        font-size: 16px;
+    }
+
+    .pub-info p {
+        font-size: 16px;
+    }
+
+    .pub-info h1 {
+        font-size: 24px;
     }
 }
