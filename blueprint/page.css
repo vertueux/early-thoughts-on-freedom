@@ -147,7 +147,8 @@
     }
     
     #readpaper {
-        margin-left: 40%;
+        margin-left: var(--margin-tiny);
+        margin-top: 30px;
     }
 
     #author {
@@ -155,7 +156,8 @@
     }
     
     #authorname {
-        margin-left: 40%;
+        margin-left: var(--margin-tiny);
+        margin-top: 30px;
     }
     
     .pub-info {
@@ -179,7 +181,7 @@
 
 @media (max-width: 800px) {
     #ptitle {
-        font-size: 34px;
+        font-size: 32px;
     }
 
     .info-container span {
