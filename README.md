@@ -1,4 +1,4 @@
-# Thoughts on freedom
+# Réflexion sur la liberté
 
 ![Static Badge](https://img.shields.io/badge/vertueux.github.io-View_online-brightgreen?color=blue&link=https%3A%2F%2Fvertueux.github.io)
 

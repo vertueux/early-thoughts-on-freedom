@@ -92,6 +92,7 @@
 .pub-info p {
     font-family: NotoSerifJP-Medium;
     font-size: 20px;
+    font-weight: 100;
     width: calc(var(--page-width) - 2*var(--padding-left-from-page));
     padding-bottom: 160px;
 }
@@ -111,6 +112,7 @@
 
 #author {
     font-family: Montserrat;
+    font-weight: bold;
 }
 
 #authorname {
