@@ -15,7 +15,7 @@
 
 #ptitle {
     display: inline-block;
-    font-family: TestSignifier-ExtraLight;
+    font-family: NotoSerifJP-Medium;
     font-size: 54px;
     vertical-align: top;
 }
@@ -85,12 +85,12 @@
 
 .pub-info h1 {
     font-size: 30px;
-    font-family: TestSohne;
+    font-family: Montserrat;
     margin-bottom: 15px;
 }
 
 .pub-info p {
-    font-family: TestSignifier-ExtraLight;
+    font-family: NotoSerifJP-Medium;
     font-size: 20px;
     width: calc(var(--page-width) - 2*var(--padding-left-from-page));
     padding-bottom: 160px;
@@ -110,11 +110,11 @@
 }
 
 #author {
-    font-family: TestSohne;
+    font-family: Montserrat;
 }
 
 #authorname {
-    font-family: TestSohne-Light;
+    font-family: Montserrat;
     position: absolute;
     left: 0px;
     margin-left: var(--padding-left-from-page);
