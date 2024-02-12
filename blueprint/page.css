@@ -118,7 +118,7 @@
     border-radius: 10px;
     padding: 5px 10px;
     border: none;
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     cursor: pointer;
 }
 
@@ -130,7 +130,9 @@
 }
 
 
-@media (max-width: 1450px) { /* This has to be set to page's width with a tiny gap (+150px in this case).*/
+@media (max-width: 1450px) {
+
+    /* This has to be set to page's width with a tiny gap (+150px in this case).*/
     .page {
         width: 100%;
     }
@@ -147,7 +149,7 @@
     #date {
         margin-left: var(--margin-tiny);
     }
-    
+
     #readpaper {
         margin-left: var(--margin-tiny);
         margin-top: 30px;
@@ -156,12 +158,12 @@
     #author {
         margin-left: var(--margin-tiny);
     }
-    
+
     #authorname {
         margin-left: var(--margin-tiny);
         margin-top: 30px;
     }
-    
+
     .pub-info {
         margin-left: calc(var(--margin-tiny));
     }
